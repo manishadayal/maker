@@ -161,6 +161,9 @@
 	    background: rgba(0,0,0,.2);
 	    border: none;
 	}
+	.item:first-child {
+		border-right: 1px solid #2b343e;
+	}
 }
 
 .featured-section {
@@ -1323,7 +1326,8 @@
 	}
 	
 	.cta-content {
-		font-size: 16px;
+		font-size: 20px;
+        color: #2b343e;
 		
 		a {
 			color: rgba(0, 0, 0, 0.5);
