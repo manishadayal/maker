@@ -218,6 +218,9 @@
 	color: $theme-text-color-light !important;
 }
 
+#course-category-listings .listitem[data-selected='1'] {
+    border-left: calc(1px + 5px) solid #d2dbe2;
+}
 
 .card, #page-enrol-users #filterform, .que .history, .userprofile .profile_tree section, .groupinfobox, .forumpost, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-right, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax .yui-layout-unit-bottom, .yui-skin-sam .yui-layout.path-mod-chat-gui_ajax #chat-messages .chat-message.course-theme, .well {
 	@include border-radius(0);
@@ -2025,7 +2028,9 @@ span[data-region="favourite-icon"] .icon{
 	color: $theme-color-primary !important;
 }
 
-
+.dropdown-item:active a, .dropdown-item:hover a, .dropdown-item:focus a, .dropdown-item:focus-within a {
+    color: #4c6d85;
+}
 
 
 

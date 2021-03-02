@@ -559,7 +559,7 @@ $homeblock6image = $theme->setting_file_url('homeblock6image', 'homeblock6image'
     $sitelogo = $theme->setting_file_url('logo', 'logo');
     if (isset($sitelogo)) {
         
-        $prescss .= '.has-logo .login-sitename a {text-indent: -99999px; display: block; height: 60px; background-image: url("' . $sitelogo . '"); background-repeat: no-repeat; background-position: center center;}';
+        $prescss .= '.has-logo .login-sitename a {text-indent: -99999px; display: block; height: 104px; background-image: url("' . $sitelogo . '"); background-repeat: no-repeat; background-position: center center;}';
         
 
     }
