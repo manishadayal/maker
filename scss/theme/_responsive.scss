@@ -40,8 +40,11 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
 	.col-lg-4 {
-		flex: 0 0 48.333333%;
-		max-width: 46.333333%;
+		flex: 0 0 49.333333%;
+		max-width: 49.333333%;
+	}
+	.container {
+		max-width: 965px;
 	}
 	
 }

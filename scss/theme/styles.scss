@@ -171,7 +171,7 @@ $course-header-image-height: 360px !default;
   .item {
     color: #2b343e;
 
-    .item-title {
+    .item-title, h3 {
       font-family: roboto-bold;
       color: #2b343e;
       font-size: 20px;
@@ -260,7 +260,7 @@ a.theme-btn-cta, .theme-btn-cta {
   }
 
   .item-desc {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     color: #2b343e;
   }
