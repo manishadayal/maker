@@ -2033,8 +2033,11 @@ span[data-region="favourite-icon"] .icon{
     color: #4c6d85;
 }
 
-input[value="Move"].btn.btn-secondary {
+input[value="Move"].btn.btn-secondary, .filepicker-filelist, #page-admin-user #region-main .btn, .btn[value="Show this user's permissions"], #capability-overview-form #fitem_id_capability .form-control, .assignuserrole .btn {
     margin-top: 4px;
 }
 
+#page-course-recommendations .input-group .btn {
+	padding: 6px 20px;
+}
 
