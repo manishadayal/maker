@@ -177,9 +177,11 @@ $course-header-image-height: 360px !default;
       font-size: 20px;
     }
     .item-desc {
-      font-family: roboto-thin;
+      font-family: roboto-thin,roboto,sans-serif;
       font-size: 18px;
       font-weight: bold;
+      letter-spacing: 0.05em;
+      color: rgb(30, 45, 59);
     }
   }
 }
@@ -435,9 +437,10 @@ div.cta-section h2.cta-title div {
 }
 
 .branding .branding-inner .site-logo {
-  max-height: 115px;
+  max-height: 100px;
   height: auto;
   padding-bottom: 10px;
+  margin-top: 5px;
 }
 
 .que.multichoice .answer {
