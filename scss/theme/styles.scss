@@ -174,7 +174,8 @@ $course-header-image-height: 360px !default;
     .item-title, h3 {
       font-family: roboto-bold;
       color: #2b343e;
-      font-size: 19px;
+      font-size: 20px;
+      letter-spacing: .05em;
     }
     .item-desc {
       font-family: roboto-thin,roboto,sans-serif;
