@@ -438,7 +438,7 @@ div.cta-section h2.cta-title div {
 }
 
 .branding .branding-inner .site-logo {
-  max-height: 100px;
+  max-height: 96px;
   height: auto;
   padding-bottom: 10px;
   margin-top: 5px;
@@ -476,4 +476,8 @@ div.cta-section h2.cta-title div {
       display: inline;
     }
   }
+}
+
+#page-admin-theme-index [method="post"] button.btn-secondary {
+  margin-bottom: 4px;
 }
