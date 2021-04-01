@@ -929,3 +929,5 @@ $string['benefitstitleheader'] = 'Benefits Title Header';
 $string['benefitstitleheaderdesc'] = 'Enter the settings for the benefits title';
 $string['benefitstitle'] = 'Benefits Title';
 $string['benefitstitledesc'] = 'The title that should appear above the listed benefits';
+
+$string['printquiz'] = 'View printable quiz';
