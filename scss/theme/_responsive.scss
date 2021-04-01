@@ -31,8 +31,7 @@
 	    -webkit-column-gap: 1rem;
 	    -moz-column-gap: 1rem;
 	    column-gap: 1rem;
-
-	}
+     }
 	
 
 }
@@ -49,8 +48,19 @@
 	
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
+// large devices (large desktops, 1024px and up)
+@media (min-width: 1024px) { 
+	.container {
+		max-width: 1020px;
+	}
+	
+}
+
+// Extra large devices (Extra large desktops, 1200px and up)
+@media (min-width: 1100px) { 
+	.container {
+		max-width: 1200px;
+	}
 	
 }
 
@@ -155,9 +165,22 @@
 	.teachers-section .item img.profile {
 		max-width: 100%;
 	}
+
+	
 	
 }
 
+// Border bottom under "OUR INCREDIBLE FEATURES" Section (For tablets & Phones)
+@media (max-width: 991px) {
+	.benefits-section .item:first-child{
+		border-right: none;
+	}
+
+	.benefits-section .item:first-child .item-inner{
+		border-bottom: 1px solid #2b343e;
+		padding-bottom: 15px;
+	}
+}
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) { 
     

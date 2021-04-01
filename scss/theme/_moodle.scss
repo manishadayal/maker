@@ -1950,6 +1950,13 @@ span[data-region="favourite-icon"] .icon{
 	margin: 0;
 }
 
+#page-mod-quiz-summary.lockscroll .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd .yui3-widget-buttons{
+	position: absolute;
+}
+#page-mod-quiz-summary.lockscroll .moodle-dialogue-confirm .confirmation-dialogue .confirmation-buttons input.btn-secondary {
+    margin-top: 4px;
+}
+
 #block-region-side-pre {
 	
 	.block > .card-body {
