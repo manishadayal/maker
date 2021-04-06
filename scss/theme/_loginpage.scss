@@ -107,8 +107,8 @@ h2.login-sitename {
 	
 	.signup-link {
 		position: absolute;
-		right: 0;
-		top: 0;
+		left: 0;
+		top: 35px;
 		.btn {
 			font-size: 14px;
 		}
@@ -116,8 +116,10 @@ h2.login-sitename {
 	
 	.instructions {
 		font-size: 14px;
-		padding: 15px;
-		background: $smoky-white;
+        padding: 15px 0px;
+        position: relative;
+        top: 26px;
+        background: #f1f5f7;
 		@include border-radius(2px);
 	}
 	
