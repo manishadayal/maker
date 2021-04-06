@@ -373,10 +373,6 @@
 		font-size: 24px;
 		font-family: $headingfont;
 		position: relative;
-		top: 7px;
-		&.has-logo {
-			top: 5px;
-		}
 		&:hover {
 			text-decoration: none;
 			color: darken($theme-text-color-primary, 10%);;

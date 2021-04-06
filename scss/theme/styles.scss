@@ -66,7 +66,7 @@ $course-header-image-height: 360px !default;
 .page-header .branding .site-name {
   color: #2b343e;
   font-size: 20px;
-  top: 11px;
+  // top: 11px;
   font-weight: 200;
 }
 
@@ -75,13 +75,12 @@ $course-header-image-height: 360px !default;
   background: #f2f5f7;
   padding-top: 0px;
   padding-bottom: 0px;
-  height: 125px;
+  height: auto;
 }
 
 /*This adjusts the placement of the three lines used to toggle the side navigation bar (it was necessary to adjust once adjusting the bar itself).*/
 .page-header .drawer-toggle {
-  top: 30px;
-  padding-top: 25px;
+  top: 46px;
 }
 
 /*Changes the Color of the User Menu (on the top right of the site).*/
@@ -441,7 +440,7 @@ div.cta-section h2.cta-title div {
   max-height: 96px;
   height: auto;
   padding-bottom: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .que.multichoice .answer {
