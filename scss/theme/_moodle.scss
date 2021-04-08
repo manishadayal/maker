@@ -919,6 +919,12 @@ img.userpicture {
 	
 }
 
+#page-header .flex-wrap{
+	display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: nowrap!important;
+}
+
 #page-navbar {
 	margin-top: 10px;
 	margin-bottom: 10px;
