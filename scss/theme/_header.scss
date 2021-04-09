@@ -46,7 +46,7 @@
 .page-wrapper {
 	position: relative;
 	//padding-top: 130px;
-	padding-top: 50px;
+	padding-top: 160px;
 	
 	&.page-wrapper-secure {
 		padding-top:0;
@@ -72,10 +72,10 @@
 	}
 	
 }
-#page-course-view-topics #page-wrapper{
+/* #page-course-view-topics #page-wrapper{
 	padding-top: 156px;
 }
-
+ */
 .page-header {
 	position: fixed;
 	z-index: 1002; /* higher than #nav-drawer (1001) but lower than modal window (1052) */
