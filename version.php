@@ -16,7 +16,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2021040901;
+$plugin->version   = 2021040902;
 $plugin->release  = 'Moodle 3.9 Maker v6.0';
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->requires  = 2020060900; 
