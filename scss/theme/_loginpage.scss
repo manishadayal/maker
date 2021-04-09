@@ -392,5 +392,12 @@ h2.login-sitename {
 	.tool_dataprivacy {
 		display: none;
 	}
+
+	#page-wrapper {
+		margin-top: 0;
+	}
 }
 
+#page-login-signup #page-wrapper {
+	margin-top: 0;
+}
