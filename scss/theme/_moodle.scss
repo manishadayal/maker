@@ -926,9 +926,14 @@ img.userpicture {
 	flex-wrap: nowrap!important;
 }
 
-#page-navbar {
+#page-header #page-navbar {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	width: 80%;
+}
+
+#page-header .flex-wrap .singlebutton button[type="submit"]{
+	background-color: #53768e;
 }
 
 .context-header-settings-menu .dropdown-toggle>.icon, #region-main-settings-menu .dropdown-toggle>.icon {
