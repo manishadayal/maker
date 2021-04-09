@@ -44,9 +44,7 @@
 
 
 .page-wrapper {
-	position: relative;
-	//padding-top: 130px;
-	padding-top: 50px;
+	margin-top: 156px;
 	
 	&.page-wrapper-secure {
 		padding-top:0;
@@ -71,9 +69,6 @@
 		padding-top: 0;
 	}
 	
-}
-#page-course-view-topics #page-wrapper{
-	padding-top: 156px;
 }
 
 .page-header {

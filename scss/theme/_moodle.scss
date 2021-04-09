@@ -3,6 +3,7 @@
 #page-wrapper {
 	padding-bottom: 0;
 	margin-bottom: 0;
+	margin-top: 156px;
 	&:after {
 		display: none;
 		min-height: inherit;
@@ -2052,5 +2053,21 @@ input[value="Move"].btn.btn-secondary, .filepicker-filelist, #page-admin-user #r
 
 #page-course-recommendations .input-group .btn {
 	padding: 6px 20px;
+}
+
+input#id_advancedadddiscussion {
+    color: #fff;
+}
+
+input#id_advancedadddiscussion:hover {
+    text-decoration: none;
+}
+
+button#searchforums {
+    margin-left: 3px;
+}
+
+.moodle-dialogue-base .moodle-dialogue.mod_quiz_preflight_popup .moodle-dialogue-bd #mod_quiz_preflight_form #fgroup_id_buttonar {
+    padding: 2px 5px 10px 5px;
 }
 
