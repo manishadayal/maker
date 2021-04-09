@@ -926,9 +926,10 @@ img.userpicture {
 	flex-wrap: nowrap!important;
 }
 
-#page-navbar {
+#page-header #page-navbar {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	width: 80%;
 }
 
 .context-header-settings-menu .dropdown-toggle>.icon, #region-main-settings-menu .dropdown-toggle>.icon {
