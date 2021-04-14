@@ -389,8 +389,8 @@ h2.login-sitename {
 /* Login Page */
 #page-login-index {
 
-	.tool_dataprivacy {
-		display: none;
+	#page-wrapper {
+		padding-top: 0px;
 	}
 }
 

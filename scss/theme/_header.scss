@@ -44,7 +44,8 @@
 
 
 .page-wrapper {
-	margin-top: 156px;
+	//position: relative;
+	padding-top: 156px;
 	
 	&.page-wrapper-secure {
 		padding-top:0;
@@ -64,13 +65,12 @@
 		
 	}
 
-	
+/* 	
 	.pagelayout-login & {
 		padding-top: 0;
-	}
+	} */
 	
 }
-
 .page-header {
 	position: fixed;
 	z-index: 1002; /* higher than #nav-drawer (1001) but lower than modal window (1052) */
