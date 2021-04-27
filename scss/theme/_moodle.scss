@@ -2072,3 +2072,14 @@ button#searchforums {
     padding: 2px 5px 10px 5px;
 }
 
+#region-main{
+	position: relative;
+}
+#region-main .course-content .topics{
+	position: relative;
+}
+.card-body, #region-main>.card{
+	margin-top: 50px;
+}
+
+
