@@ -276,7 +276,7 @@
 		@include transition (all 0.4s ease-in-out);
 		background: #fff;
 		// height: $fp-block-height;
-		height: 550px;
+		height: auto;
 		overflow: hidden;
 		@extend %card-box-shadow;
 
